@@ -13,5 +13,7 @@ namespace SDML_Client
     /// </summary>
     public partial class App : Application
     {
+        public static daima.Liebiao_fuwuqi liebiao_Fuwuqi = new daima.Liebiao_fuwuqi();
+        public static daima.Shijian shijian = new daima.Shijian();
     }
 }

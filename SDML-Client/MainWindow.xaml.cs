@@ -23,6 +23,17 @@ namespace SDML_Client
         public MainWindow()
         {
             InitializeComponent();
+            Loaded += MainWindow_Loaded;
+        }
+
+        private void MainWindow_Loaded(object sender, RoutedEventArgs e)
+        {
+            App.liebiao_Fuwuqi.duqu();
+            //打开连接主服务器页面
+            lianjie.kuanjia isw1 = new lianjie.kuanjia();
+            isw1.Show();//无模式，弹出！
+            Window window1 = Window.GetWindow(this);//关闭父窗体
+            window1.Close();
         }
     }
 }

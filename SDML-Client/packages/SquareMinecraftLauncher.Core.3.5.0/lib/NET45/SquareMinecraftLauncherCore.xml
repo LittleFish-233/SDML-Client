@@ -1,0 +1,1374 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SquareMinecraftLauncherCore</name>
+    </assembly>
+    <members>
+        <member name="P:json3.Root.id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json3.Root.name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:main.mainclass.mainClass">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:main.mainclass.minecraftArguments">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:main.mainclass.minimumLauncherVersion">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:main.mainclass.releaseTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:main.mainclass.time">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:main.mainclass.type">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json.AssetIndex.id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json.AssetIndex.sha1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json.AssetIndex.size">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json.AssetIndex.totalSize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json.AssetIndex.url">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json.Client.sha1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json.Client.size">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json.Client.url">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json.Server.sha1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json.Server.size">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json.Server.url">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json.Artifact.path">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json.Artifact.sha1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json.Artifact.size">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json.Artifact.url">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json.Downloads.artifact">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json.LibrariesItem.downloads">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json.LibrariesItem.name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json.File.id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json.File.sha1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json.File.size">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json.File.url">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json.Logging.client">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json.Root.assetIndex">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json.Root.assets">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json.Root.downloads">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json.Root.id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json.Root.libraries">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json.Root.logging">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json.Root.mainClass">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json.Root.minecraftArguments">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json.Root.minimumLauncherVersion">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json.Root.releaseTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json.Root.time">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json.Root.type">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.UP.SelectedProfile.id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.UP.SelectedProfile.name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.UP.Root.accessToken">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.UP.Root.clientToken">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.UP.Root.selectedProfile">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.UPerror.Root.error">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.UPerror.Root.errorMessage">
+            <summary>
+            用户名错误或未加入该服务器
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.UPSkin.PropertiesItem.name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.UPSkin.PropertiesItem.value">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.UPSkin.Root.id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.UPSkin.Root.name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.UPSkin.Root.properties">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.UPSkinBase.Metadata.model">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.UPSkinBase.SKIN.url">
+            <summary>
+            皮肤地址
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.UPSkinBase.SKIN.metadata">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.UPSkinBase.CAPE.url">
+            <summary>
+            披风地址
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.UPSkinBase.Textures.SKIN">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.UPSkinBase.Textures.CAPE">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.UPSkinBase.Root.textures">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Core.fabricmc.fabricmcJson.CommonItem.name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Core.fabricmc.fabricmcJson.Libraries.client">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Core.fabricmc.fabricmcJson.Libraries.common">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Core.fabricmc.fabricmcJson.Libraries.server">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Core.fabricmc.fabricmcJson.Arguments.client">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Core.fabricmc.fabricmcJson.Arguments.common">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Core.fabricmc.fabricmcJson.Arguments.server">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Core.fabricmc.fabricmcJson.Tweakers.client">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Core.fabricmc.fabricmcJson.Tweakers.common">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Core.fabricmc.fabricmcJson.Tweakers.server">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Core.fabricmc.fabricmcJson.Launchwrapper.tweakers">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Core.fabricmc.fabricmcJson.Root.version">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Core.fabricmc.fabricmcJson.Root.libraries">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Core.fabricmc.fabricmcJson.Root.mainClass">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Core.fabricmc.fabricmcJson.Root.arguments">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Core.fabricmc.fabricmcJson.Root.launchwrapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Core.Forge.ForgeJson.Arguments.game">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Core.Forge.ForgeJson.Root.arguments">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Core.json.mcweb.VersionsItem.id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Core.json.mcweb.VersionsItem.type">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Core.json.mcweb.VersionsItem.url">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Core.json.mcweb.VersionsItem.time">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Core.json.mcweb.VersionsItem.releaseTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Minecraft.AllTheExistingVersion.path">
+            <summary>
+            路径
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Minecraft.AllTheExistingVersion.version">
+            <summary>
+            版本文件名
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Minecraft.AllTheExistingVersion.IdVersion">
+            <summary>
+            版本
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Minecraft.MemoryInformation.TotalMemory">
+            <summary>
+            总内存
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Minecraft.MemoryInformation.AppropriateMemory">
+            <summary>
+            合适内存
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Minecraft.Skin.accessToken">
+            <summary>
+            Token
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Minecraft.Skin.NameItem">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Minecraft.SkinName.Name">
+            <summary>
+            游戏名
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Minecraft.SkinName.uuid">
+            <summary>
+            uuid
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Minecraft.MCDownload.Url">
+            <summary>
+            下载网址
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Minecraft.MCDownload.path">
+            <summary>
+            下载路径
+            </summary>
+        </member>
+        <member name="T:SquareMinecraftLauncher.Minecraft.DownloadSource">
+            <summary>
+            下载源
+            </summary>
+        </member>
+        <member name="F:SquareMinecraftLauncher.Minecraft.DownloadSource.bmclapiSource">
+            <summary>
+            bmclapi下载源
+            </summary>
+        </member>
+        <member name="F:SquareMinecraftLauncher.Minecraft.DownloadSource.MinecraftSource">
+            <summary>
+            minecraft下载源
+            </summary>
+        </member>
+        <member name="F:SquareMinecraftLauncher.Minecraft.DownloadSource.MCBBSSource">
+            <summary>
+            MCBBS下载源
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Minecraft.MCVersionList.id">
+            <summary>
+            版本
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Minecraft.MCVersionList.type">
+            <summary>
+            类型
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Minecraft.MCVersionList.releaseTime">
+            <summary>
+            发布时间
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Minecraft.ForgeList.version">
+            <summary>
+            版本
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Minecraft.ForgeList.ForgeVersion">
+            <summary>
+            forge版本
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Minecraft.ForgeList.ForgeTime">
+            <summary>
+            发布时间
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Minecraft.LiteloaderList.version">
+            <summary>
+            Liteloader版本
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Minecraft.LiteloaderList.mcversion">
+            <summary>
+            mc版本
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Minecraft.OptiFineList.mcversion">
+            <summary>
+            mc版本
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Minecraft.OptiFineList.type">
+            <summary>
+            类型
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Minecraft.OptiFineList.patch">
+            <summary>
+            补丁号
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Minecraft.OptiFineList.filename">
+            <summary>
+            文件名
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Minecraft.UnifiedPass.accessToken">
+            <summary>
+            token
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Minecraft.UnifiedPass.id">
+            <summary>
+            uuid
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Minecraft.UnifiedPass.name">
+            <summary>
+            游戏名
+            </summary>
+        </member>
+        <member name="T:SquareMinecraftLauncher.Minecraft.AuthenticationServerMode">
+            <summary>
+            验证服务器方式
+            </summary>
+        </member>
+        <member name="F:SquareMinecraftLauncher.Minecraft.AuthenticationServerMode.yggdrasil">
+            <summary>
+            yggdrasil
+            </summary>
+        </member>
+        <member name="F:SquareMinecraftLauncher.Minecraft.AuthenticationServerMode.UnifiedPass">
+            <summary>
+            统一通行证
+            </summary>
+        </member>
+        <member name="T:SquareMinecraftLauncher.Minecraft.UnifiedPassesTheSkin">
+            <summary>
+            统一通行证皮肤
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Minecraft.UnifiedPassesTheSkin.Skin">
+            <summary>
+            皮肤
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Minecraft.UnifiedPassesTheSkin.Cape">
+            <summary>
+            披风
+            </summary>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Game.StartGame(System.String,System.String,System.Int32,System.String)">
+            <summary>
+            启动游戏
+            </summary>
+            <param name="version">版本</param>
+            <param name="java">java</param>
+            <param name="RAM">虚拟内存</param>
+            <param name="name">游戏名</param>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Game.StartGame(System.String,System.String,System.Int32,System.String,System.String)">
+            <summary>
+            启动游戏
+            </summary>
+            <param name="version">版本</param>
+            <param name="java">java</param>
+            <param name="RAM">虚拟内存</param>
+            <param name="username">邮箱</param>
+            <param name="password">密码</param>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Game.StartGame(System.String,System.String,System.Int32,System.String,System.String,System.String)">
+            <summary>
+            启动游戏
+            </summary>
+            <param name="version">版本</param>
+            <param name="java">java</param>
+            <param name="RAM">虚拟内存</param>
+            <param name="name">游戏名</param>
+            <param name="JVMparameter">前置参数</param>
+            <param name="RearParameter">后置参数</param>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Game.StartGame(System.String,System.String,System.Int32,System.String,System.String,System.String,System.String)">
+            <summary>
+            启动游戏
+            </summary>
+            <param name="version">版本</param>
+            <param name="java">java</param>
+            <param name="RAM">虚拟内存</param>
+            <param name="username">邮箱</param>
+            <param name="password">密码</param>
+            <param name="JVMparameter">前置参数</param>
+            <param name="RearParameter">后置参数</param>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Game.StartGame(System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            启动游戏
+            </summary>
+            <param name="version">版本</param>
+            <param name="java">java</param>
+            <param name="RAM">虚拟内存</param>
+            <param name="name">游戏名</param>
+            <param name="uuid">uuid</param>
+            <param name="token">token</param>
+            <param name="JVMparameter">前置参数</param>
+            <param name="RearParameter">后置参数</param>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Game.StartGame(System.String,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,SquareMinecraftLauncher.Minecraft.AuthenticationServerMode)">
+            <summary>
+            启动游戏
+            </summary>
+            <param name="version">版本</param>
+            <param name="java">java</param>
+            <param name="RAM">虚拟内存</param>
+            <param name="name">游戏名</param>
+            <param name="uuid">uuid</param>
+            <param name="token">token</param>
+            <param name="yggdrasilURLORID">ID</param>
+            <param name="JVMparameter">JVM</param>
+            <param name="RearParameter">后置参数</param>
+            <param name="authentication">验证方式</param>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.ChangeTheTitle(System.String)">
+            <summary>
+            修改游戏标题
+            </summary>
+            <param name="Text">标题</param>
+            <returns></returns>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.DownloadSourceInitialization(SquareMinecraftLauncher.Minecraft.DownloadSource)">
+            <summary>
+            下载源初始化
+            </summary>
+            <param name="downloadSource">下载源</param>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.ForgeExist(System.String)">
+            <summary>
+            forge是否存在
+            </summary>
+            <param name="version">版本</param>
+            <returns></returns>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.ForgeInstallation(System.String,System.String,System.String)">
+            <summary>
+            forge安装
+            </summary>
+            <param name="ForgePath">forge路径</param>
+            <param name="version">版本</param>
+            <param name="java">java路径</param>
+            <returns></returns>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.ForgeVersionList">
+            <summary>
+            获取Forge版本列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.GetAllFile(System.String)">
+            <summary>
+            取所有依赖库包括（Natives）
+            </summary>
+            <param name="version"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.GetAllLibrary(System.String)">
+            <summary>
+            取所有依赖库
+            </summary>
+            <param name="version">版本</param>
+            <returns></returns>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.GetAllNatives(System.String)">
+            <summary>
+            取所有Natives
+            </summary>
+            <param name="version">版本</param>
+            <returns></returns>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.GetAllTheAsset(System.String)">
+            <summary>
+            取所有Asset
+            </summary>
+            <param name="version">版本</param>
+            <returns></returns>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.GetAllTheExistingVersion">
+            <summary>
+            取.minecraft所有存在的版本
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.GetAuthlib_Injector(System.String,System.String,System.String)">
+            <summary>
+            Authlib_Injector验证
+            </summary>
+            <param name="yggdrasilURL"></param>
+            <param name="username">账号</param>
+            <param name="password">密码</param>
+            <returns></returns>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.GetCompareForgeVersions(System.String)">
+            <summary>
+            Forge是否需要更新
+            </summary>
+            <param name="version">版本</param>
+            <returns></returns>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.GetForgeList(System.String)">
+            <summary>
+            取对应版本所有Forge列表
+            </summary>
+            <param name="version">版本</param>
+            <returns></returns>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.GetJavaPath">
+            <summary>
+            取java路径
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.GetLiteloaderList">
+            <summary>
+            取Liteloader列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.GetLocalForgeVersion(System.String)">
+            <summary>
+            取对应版本的安装Forge版本
+            </summary>
+            <param name="version">版本</param>
+            <returns></returns>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.GetMaxForge(System.String)">
+            <summary>
+            取对应版本最新的Forge
+            </summary>
+            <param name="version">版本</param>
+            <returns></returns>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.GetMCVersionList">
+            <summary>
+            取MC列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.GetMemorySize">
+            <summary>
+            取合适内存
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.GetMissingAsset(System.String)">
+            <summary>
+            取缺少的Asset
+            </summary>
+            <param name="version">版本</param>
+            <returns></returns>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.GetMissingFile(System.String)">
+            <summary>
+            取缺少的依赖库包括（Natives）
+            </summary>
+            <param name="version">版本</param>
+            <returns></returns>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.GetMissingLibrary(System.String)">
+            <summary>
+            取缺少的依赖库
+            </summary>
+            <param name="version">版本</param>
+            <returns></returns>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.GetMissingNatives(System.String)">
+            <summary>
+            取缺少的Natives
+            </summary>
+            <param name="version">版本</param>
+            <returns></returns>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.GetOptiFineList(System.String)">
+            <summary>
+            取OptiFine版本
+            </summary>
+            <param name="version">版本</param>
+            <returns></returns>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.GetOSBit">
+            <summary>
+            取系统位数
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.GetTheExistingLibrary(System.String)">
+            <summary>
+            取存在的依赖库
+            </summary>
+            <param name="version">版本</param>
+            <returns></returns>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.GetUnifiedPass(System.String,System.String,System.String)">
+            <summary>
+            统一通行证验证
+            </summary>
+            <param name="ID">服务器ID</param>
+            <param name="username">账号</param>
+            <param name="password">密码</param>
+            <returns></returns>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.GetUnifiedPassesTheSkin(System.String,System.String,System.String)">
+            <summary>
+            取统一通行证皮肤
+            </summary>
+            <param name="ID">服务器ID</param>
+            <param name="username">账号</param>
+            <param name="password">密码</param>
+            <returns></returns>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.LiteloaderExist(System.String)">
+            <summary>
+            取Liteloader是否存在
+            </summary>
+            <param name="version">版本</param>
+            <returns></returns>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.LiteloaderExist(System.String,System.String@)">
+            <summary>
+            Liteloader是否存在
+            </summary>
+            <param name="version">版本</param>
+            <param name="LiteloaderVersion">返回Liteloader版本</param>
+            <returns></returns>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.liteloaderInstall(System.String)">
+            <summary>
+            Liteloader安装
+            </summary>
+            <param name="version">版本</param>
+            <returns></returns>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.MinecraftLogin(System.String,System.String)">
+            <summary>
+            正版登录
+            </summary>
+            <param name="username">账号</param>
+            <param name="password">密码</param>
+            <returns></returns>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.OptifineExist(System.String)">
+            <summary>
+            Optifine是否存在
+            </summary>
+            <param name="version">版本</param>
+            <returns></returns>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.OptifineExist(System.String,System.String@)">
+            <summary>
+            Optifine是否存在
+            </summary>
+            <param name="version">版本</param>
+            <param name="OptifineVersion">返回Optifine版本</param>
+            <returns></returns>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.OptifineInstall(System.String,System.String)">
+            <summary>
+            Optifine安装
+            </summary>
+            <param name="version">版本</param>
+            <param name="patch">patch</param>
+            <returns></returns>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.UninstallTheExpansionPack(SquareMinecraftLauncher.Minecraft.ExpansionPack,System.String)">
+            <summary>
+            卸载扩展包
+            </summary>
+            <param name="ExpansionPack">扩展包类型</param>
+            <param name="version">版本</param>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.FabricExist(System.String)">
+            <summary>
+            是否存在Fabric
+            </summary>
+            <param name="version">版本</param>
+            <returns></returns>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Minecraft.Tools.SetMinecraftFilesPath(System.String)">
+            <summary>
+            设置Minecraft目录路径
+            </summary>
+            <param name="Path">.minecraft路径</param>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Unzip.UnZipFile(System.String,System.String,System.String@)">
+            <summary>  
+            功能：解压zip格式的文件。  
+            </summary>  
+            <param name="zipFilePath">压缩文件路径</param>  
+            <param name="unZipDir">解压文件存放路径,为空时默认与压缩文件同一级目录下，跟压缩文件同名的文件夹</param>  
+            <param name="err">出错信息</param>  
+            <returns>解压是否成功</returns>  
+        </member>
+        <member name="M:SquareMinecraftLauncher.Uzip.Zip(System.String,System.String,System.String,System.String@)">
+            <summary>   
+            压缩文件或文件夹   ----带密码
+            </summary>   
+            <param name="fileToZip">要压缩的路径-文件夹或者文件</param>   
+            <param name="zipedFile">压缩后的文件名</param>   
+            <param name="password">密码</param>
+            <param name="errorOut">如果失败返回失败信息</param>
+            <returns>压缩结果</returns>   
+        </member>
+        <member name="M:SquareMinecraftLauncher.Uzip.Zip(System.String,System.String,System.String@)">
+            <summary>   
+            压缩文件或文件夹 ----无密码 
+            </summary>   
+            <param name="fileToZip">要压缩的路径-文件夹或者文件</param>   
+            <param name="zipedFile">压缩后的文件名</param>
+            <param name="errorOut">如果失败返回失败信息</param>
+            <returns>压缩结果</returns>   
+        </member>
+        <member name="M:SquareMinecraftLauncher.Uzip.ZipFile(System.String,System.String,System.String)">
+            <summary>   
+            压缩文件   
+            </summary>   
+            <param name="fileToZip">要压缩的文件全名</param>   
+            <param name="zipedFile">压缩后的文件名</param>   
+            <param name="password">密码</param>   
+            <returns>压缩结果</returns>   
+        </member>
+        <member name="M:SquareMinecraftLauncher.Uzip.ZipDirectory(System.String,System.String,System.String)">
+            <summary>
+            压缩文件夹
+            </summary>
+            <param name="strFile">带压缩的文件夹目录</param>
+            <param name="strZip">压缩后的文件名</param>
+            <param name="password">压缩密码</param>
+            <returns>是否压缩成功</returns>
+        </member>
+        <member name="M:SquareMinecraftLauncher.Uzip.zip(System.String,ICSharpCode.SharpZipLib.Zip.ZipOutputStream,System.String)">
+            <summary>
+            压缩文件夹内部方法
+            </summary>
+            <param name="strFile"></param>
+            <param name="s"></param>
+            <param name="staticFile"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SquareMinecraftLauncher.MinecraftDownload.DownloadLiteloader(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="LiteloaderVersion"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SquareMinecraftLauncher.Properties.Resources">
+            <summary>
+              一个强类型的资源类，用于查找本地化的字符串等。
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Properties.Resources.ResourceManager">
+            <summary>
+              返回此类使用的缓存的 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncher.Properties.Resources.Culture">
+            <summary>
+              重写当前线程的 CurrentUICulture 属性
+              重写当前线程的 CurrentUICulture 属性。
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncherWPF.DIYJson.DIYLoginItem.DIYname">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncherWPF.DIYJson.DIYLoginItem.s">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncherWPF.DIYJson.DIYLoginItem.L">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SquareMinecraftLauncherWPF.DIYJson.Root.DIYLogin">
+            <summary>
+            
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:windows.WinAPI.SwitchToThisWindow(System.IntPtr,System.Boolean)" -->
+        <!-- Badly formed XML comment ignored for member "M:windows.WinAPI.GetWindowThreadProcessId(System.IntPtr,System.IntPtr@)" -->
+        <!-- Badly formed XML comment ignored for member "M:windows.WinAPI.ShowWindowAsync(System.IntPtr,windows.ShowEnum)" -->
+        <!-- Badly formed XML comment ignored for member "M:windows.WinAPI.SetForegroundWindow(System.IntPtr)" -->
+        <!-- Badly formed XML comment ignored for member "M:windows.WinAPI.SetWindowPos(System.IntPtr,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:windows.WinAPI.SetWindosActiv(System.IntPtr)" -->
+        <!-- Badly formed XML comment ignored for member "M:windows.WinAPI.SetWindowsTop(System.IntPtr,System.Boolean)" -->
+        <!-- Badly formed XML comment ignored for member "M:windows.WinAPI.GetAllChildControlsHandle(System.IntPtr)" -->
+        <!-- Badly formed XML comment ignored for member "M:windows.WinAPI.FindWindow(System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:windows.WinAPI.GetHandle(System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:windows.WinAPI.GetHandle(System.Drawing.Point)" -->
+        <member name="M:windows.WinAPI.GetCursorPosPoint">
+            <summary>
+            获取鼠标位置的坐标
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:windows.WinAPI.GetMoustPointWindwsHwnd">
+            <summary>
+            得到鼠标指向的窗口句柄
+            </summary>
+            <returns>找不到则返回-1</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:windows.WinAPI.FindWindowE(System.IntPtr,System.IntPtr,System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:windows.WinAPI.FindWindowExList(System.IntPtr,System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:windows.WinAPI.SendMessageA(System.IntPtr,System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:windows.WinAPI.MouseClick(System.IntPtr,System.Int32,System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:windows.WinAPI.GetWindowText(System.IntPtr)" -->
+        <!-- Badly formed XML comment ignored for member "M:windows.WinAPI.GetWindowRect(System.IntPtr)" -->
+        <!-- Badly formed XML comment ignored for member "M:windows.WinAPI.ScreenToClient(System.IntPtr,System.Drawing.Rectangle)" -->
+        <!-- Badly formed XML comment ignored for member "M:windows.WinAPI.GetClientRect(System.IntPtr)" -->
+        <member name="M:windows.WinAPI.IsWindow(System.IntPtr)">
+            =====================================================================
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:windows.WinAPI.IsWindow(System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:windows.WinAPI.SetWindowText(System.Int32,System.String)" -->
+        <member name="M:windows.WinAPI.GetForeGroundWindow">
+            <summary>
+            获得顶层窗口
+            </summary>
+            <returns>返回 窗口句柄</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:windows.WinAPI.GetWindowState(System.Int32,System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:windows.WinAPI.GetChild_Host(System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:windows.WinAPI.GetClassName(System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:windows.WinAPI.GetClassName(System.IntPtr)" -->
+        <!-- Badly formed XML comment ignored for member "M:windows.WinAPI.FindPointWindow(System.Int32,System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:windows.WinAPI.FindWindowHwnd(System.String,System.String)" -->
+        <member name="M:windows.WinAPI.GetAllDesktopWindows">
+            <summary>
+            遍历方法 - 返回一个List<windowinfo> 集合
+            </windowinfo></summary>
+            <returns></returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:windows.WinAPI.EnumWindow(System.String,System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:windows.WinAPI.FindWindow_ByTitle(System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:windows.WinAPI.FindWindowEx_ByTitle(System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:windows.WinAPI.FindWindow_ByProcessName(System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:windows.WinAPI.FindWindowEx_ByProcessName(System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:windows.WinAPI.MoveWindow(System.Int32,System.Int32,System.Int32)" -->
+        <!-- Badly formed XML comment ignored for member "M:windows.WinAPI.MoveWindow(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)" -->
+        <member name="M:DES.DESEncrypt.Decrypt(System.String,System.String)">
+            <summary>
+            DES解密字符串
+            </summary>
+            <param name="decryptString">待解密的字符串</param>
+            <param name="decryptKey">解密密钥,要求为8位,和加密密钥相同</param>
+            <returns>解密成功返回解密后的字符串，失败返源串</returns>
+        </member>
+        <member name="M:Gac.DownloadThread.isFinish">
+            <summary>
+            下载是否完成
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Gac.DownloadThread.getDownLength">
+            <summary> 
+             已经下载的内容大小  
+            </summary>
+            <returns>如果返回值为-1,代表下载失败</returns>
+        </member>
+        <member name="F:Gac.FileDownloader.downloadSize">
+            <summary>
+            已下载文件长度
+            </summary>
+        </member>
+        <member name="F:Gac.FileDownloader.fileSize">
+            <summary>
+            原始文件长度
+            </summary>
+        </member>
+        <member name="F:Gac.FileDownloader.threads">
+            <summary>
+            线程数
+            </summary>
+        </member>
+        <member name="F:Gac.FileDownloader.saveFile">
+            <summary>
+            本地保存文件
+            </summary>
+        </member>
+        <member name="F:Gac.FileDownloader.data">
+            <summary>
+            缓存各线程下载的长度
+            </summary>
+        </member>
+        <member name="F:Gac.FileDownloader.block">
+            <summary>
+            每条线程下载的长度
+            </summary>
+        </member>
+        <member name="F:Gac.FileDownloader.downloadUrl">
+            <summary>
+            下载路径
+            </summary>
+        </member>
+        <member name="M:Gac.FileDownloader.getThreadSize">
+            <summary>
+             获取线程数
+            </summary>
+            <returns> 获取线程数</returns>
+        </member>
+        <member name="M:Gac.FileDownloader.getFileSize">
+            <summary>
+              获取文件大小
+            </summary>
+            <returns>获取文件大小</returns>
+        </member>
+        <member name="M:Gac.FileDownloader.append(System.Int64)">
+            <summary>
+            累计已下载大小
+            </summary>
+            <param name="size">累计已下载大小</param>
+        </member>
+        <member name="M:Gac.FileDownloader.update(System.Int32,System.Int64)">
+            <summary>
+            更新指定线程最后下载的位置
+            </summary>
+            <param name="threadId">threadId 线程id</param>
+            <param name="pos">最后下载的位置</param>
+        </member>
+        <member name="M:Gac.FileDownloader.#ctor(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            构建下载准备,获取文件大小
+            </summary>
+            <param name="downloadUrl">下载路径</param>
+            <param name="fileSaveDir"> 文件保存目录</param>
+            <param name="threadNum">下载线程数</param>
+        </member>
+        <member name="M:Gac.FileDownloader.download(Gac.IDownloadProgressListener)">
+            <summary>
+            开始下载文件
+            </summary>
+            <param name="listener">监听下载数量的变化,如果不需要了解实时下载的数量,可以设置为null</param>
+            <returns>已下载文件大小</returns>
+        </member>
+        <member name="P:json113.Arguments.game">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json113.Root.arguments">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BlessingSkinJson.BlessingSkin.AvailableProfilesItem.id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BlessingSkinJson.BlessingSkin.AvailableProfilesItem.name">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BlessingSkinJson.BlessingSkin.Root.accessToken">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BlessingSkinJson.BlessingSkin.Root.clientToken">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BlessingSkinJson.BlessingSkin.Root.availableProfiles">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BlessingSkinJson.BlessingSkinError.error">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:BlessingSkinJson.BlessingSkinError.errorMessage">
+            <summary>
+            输入的邮箱与密码不匹配
+            </summary>
+        </member>
+        <member name="P:json4.AssetIndex.id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json4.AssetIndex.sha1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json4.AssetIndex.size">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json4.AssetIndex.totalSize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json4.AssetIndex.url">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json4.File.id">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json4.File.sha1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json4.File.size">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json4.File.url">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json4.Root.minecraftArguments">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json4.Root.minimumLauncherVersion">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json4.Root.releaseTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json4.Root.time">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:json4.Root.type">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:mcbbs.mcbbsnews.TakeTheMiddle(System.String,System.String,System.String)">
+            <summary>
+            取字符串中间内容
+            </summary>
+            <param name="text">字符串</param>
+            <param name="LeftText">左边字符串</param>
+            <param name="RightText">右边字符串</param>
+            <returns></returns>
+        </member>
+        <member name="M:mcbbs.mcbbsnews.News(mcbbs.mcbbsnews.newsArray[]@)">
+            <summary>
+            我的世界论坛新闻，成功返回true，失败返回false
+            </summary>
+            <param name="news">返回的数组</param>
+            <returns></returns>
+        </member>
+        <member name="M:mcbbs.mcbbsnews.Recommend(mcbbs.mcbbsnews.newsArray[]@)">
+            <summary>
+            mcbbs推荐新闻，成功返回true，失败返回false
+            </summary>
+            <param name="news">newArray数组</param>
+            <returns></returns>
+        </member>
+        <member name="M:mcbbs.mcbbsnews.ArrayTakeTheMiddle(System.String[]@,System.String,System.String,System.String)">
+            <summary>
+            取中间内容数组,失败返回false，成功返回true
+            </summary>
+            <param name="array">数组</param>
+            <param name="text">内容</param>
+            <param name="lt">左边</param>
+            <param name="rt">右边</param>
+            <returns></returns>
+        </member>
+        <member name="P:mcbbs.mcbbsnews.API.title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:mcbbs.mcbbsnews.API.classify">
+            <summary>
+            资讯类型
+            </summary>
+        </member>
+        <member name="P:mcbbs.mcbbsnews.API.time">
+            <summary>
+            时间
+            </summary>
+        </member>
+        <member name="P:mcbbs.mcbbsnews.API.link">
+            <summary>
+            网址
+            </summary>
+        </member>
+    </members>
+</doc>

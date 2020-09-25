@@ -1,0 +1,13 @@
+﻿<pu:WindowX x:Class="SDML_Client.lianjie.kuanjia"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SDML_Client.lianjie"
+        xmlns:pu="clr-namespace:Panuon.UI.Silver;assembly=Panuon.UI.Silver"
+        mc:Ignorable="d"
+        Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Frame x:Name="fram1" NavigationUIVisibility="Hidden"/>
+    </Grid>
+</pu:WindowX>
