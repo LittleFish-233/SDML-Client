@@ -23,6 +23,23 @@ namespace SDML_Client.zhu_youxi
         public youxi_liebiao()
         {
             InitializeComponent();
+            Loaded += Youxi_liebiao_Loaded;
+        }
+
+        private void Youxi_liebiao_Loaded(object sender, RoutedEventArgs e)
+        {
+            App.shijian.Xianshitishi += Shijian_Xianshitishi;
+        }
+
+        private void Shijian_Xianshitishi(string a, int xuhao)
+        {
+            if (a != null)
+            {
+                if (a == "游戏列表")
+                {
+                    NavigationService.Navigate(new youxi_zhu());
+                }
+            }
         }
 
         private void WaterfallViewer_LazyLoading(object sender, RoutedEventArgs e)
@@ -30,9 +47,5 @@ namespace SDML_Client.zhu_youxi
 
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            pubu.Children.Add(new xinxi_dan());
-        }
     }
 }

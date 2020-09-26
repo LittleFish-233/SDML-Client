@@ -1,0 +1,336 @@
+﻿<Page x:Class="SDML_Client.zhu_zhaxiang.kuanjia"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:SDML_Client.zhu_zhaxiang"
+      mc:Ignorable="d" 
+     xmlns:pu="clr-namespace:Panuon.UI.Silver;assembly=Panuon.UI.Silver"
+      d:DesignHeight="450" d:DesignWidth="620">
+
+    <Grid>
+        <pu:WaterfallViewer  Width="600"
+                Height="430"
+                VerticalSpacing="0"
+                Groups="2" >
+            <Button Width="290"
+                pu:ButtonHelper.ButtonStyle="Link">
+                <Grid  Width="270" VerticalAlignment="Top"
+                    Margin="10,10,10,10">
+                    <Border
+                CornerRadius="5,5,5,5" 
+                    Background="White" Opacity="0.5">
+                        <Border.Effect>
+                            <BlurEffect Radius="10" RenderingBias="Quality"/>
+                        </Border.Effect>
+                    </Border>
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Text="关于重新开始 沙雕启动器 开发的公告" FontSize="18"
+                   Foreground="#3E3E3E"
+                               TextWrapping="Wrap"
+                               TextAlignment="Center"
+                               FontWeight="Bold"
+                   FontFamily="{StaticResource FontAwesome}"
+                   Margin="0,5,0,10" Width="240"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Top"/>
+                        <TextBlock Text="       2020年初为星空神域开发的 星空启动器 只能启动本地完整客户端，暑假开始时我又开始了方块未来之成启动器的开发。那次计划能够下载客户端，并且支持分服务器、分版本启动，还支持远程自动更新。但是后来步入的三年困难时期直接导致这个计划中断，代码也被我遗失。如今服务器步入正轨，正是重新启动这个计划的好时机。预计一个月后能放出第一个测试版本，届时也将招收UI美工进行界面的重新设计。"
+                   Foreground="#3E3E3E"
+                           FontSize="15"
+                           Margin="0,0,0,10"
+                   FontFamily="{StaticResource FontAwesome}"
+                           TextWrapping="Wrap"
+                           Width="240"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Top"/>
+                    </StackPanel>
+                </Grid>
+
+            </Button>
+            <Button Width="290"
+                pu:ButtonHelper.ButtonStyle="Link">
+                <Grid  Width="270" VerticalAlignment="Top"
+                    Margin="10,10,10,10">
+                    <Border
+                CornerRadius="5,5,5,5" 
+                    Background="White" Opacity="0.5">
+                        <Border.Effect>
+                            <BlurEffect Radius="10" RenderingBias="Quality"/>
+                        </Border.Effect>
+                    </Border>
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Text="系统硬件配置信息" FontSize="18"
+                   Foreground="#3E3E3E"
+                               TextWrapping="Wrap"
+                               TextAlignment="Center"
+                               FontWeight="Bold"
+                   FontFamily="{StaticResource FontAwesome}"
+                   Margin="10,5,0,10" Width="240"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Top"/>
+                        <TextBlock Text="处理器：AMD Ryzen Threadripper 3960X 24-Core Processor "
+                             Foreground="#3E3E3E"
+                           Margin="0,0,0,0"
+                              FontFamily="{StaticResource FontAwesome}"
+                           TextWrapping="Wrap"
+                           Width="240"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Top"/>
+                        <TextBlock Text="显卡：NVIDIA GeForce RTX 2060"
+                             Foreground="#3E3E3E"
+                           Margin="0,0,0,0"
+                              FontFamily="{StaticResource FontAwesome}"
+                           TextWrapping="Wrap"
+                           Width="240"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Top"/>
+                        <TextBlock Text="内存：192GB DDR4 3200MHz"
+                             Foreground="#3E3E3E"
+                           Margin="0,0,0,0"
+                              FontFamily="{StaticResource FontAwesome}"
+                           TextWrapping="Wrap"
+                           Width="240"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Top"/>
+                        <TextBlock Text="系统：Windows 10 专业版 19041 x64"
+                             Foreground="#3E3E3E"
+                           Margin="0,0,0,10"
+                              FontFamily="{StaticResource FontAwesome}"
+                           TextWrapping="Wrap"
+                           Width="240"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Top"/>
+                    </StackPanel>
+                </Grid>
+
+            </Button>
+            <Button Width="290"
+                pu:ButtonHelper.ButtonStyle="Link">
+                <Grid  Width="270" VerticalAlignment="Top"
+                    Margin="10,10,10,10">
+                    <Border
+                CornerRadius="5,5,5,5" 
+                    Background="White" Opacity="0.5">
+                        <Border.Effect>
+                            <BlurEffect Radius="10" RenderingBias="Quality"/>
+                        </Border.Effect>
+                    </Border>
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Text="关于2020.9.27停服的通知" FontSize="18"
+                   Foreground="#3E3E3E"
+                               TextWrapping="Wrap"
+                               TextAlignment="Center"
+                               FontWeight="Bold"
+                   FontFamily="{StaticResource FontAwesome}"
+                   Margin="0,5,0,10" Width="240"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Top"/>
+                        <TextBlock Text="放逐之路整合包作者已经更新到2.4.2c版本，为了更好的游戏体验，服务器也将同步更新，不便之处尽请谅解"
+                   Foreground="#3E3E3E"
+                                   FontSize="15"
+                           Margin="0,0,0,10"
+                   FontFamily="{StaticResource FontAwesome}"
+                           TextWrapping="Wrap"
+                           Width="240"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Top"/>
+                    </StackPanel>
+                </Grid>
+
+            </Button>
+            <Button Width="290"
+                pu:ButtonHelper.ButtonStyle="Link">
+                <Grid  Width="270" VerticalAlignment="Top"
+                    Margin="10,10,10,10">
+                    <Border
+                CornerRadius="5,5,5,5" 
+                    Background="White" Opacity="0.5">
+                        <Border.Effect>
+                            <BlurEffect Radius="10" RenderingBias="Quality"/>
+                        </Border.Effect>
+                    </Border>
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Text="快速游玩" FontSize="18"
+                   Foreground="#3E3E3E"
+                               TextWrapping="Wrap"
+                               TextAlignment="Center"
+                               FontWeight="Bold"
+                   FontFamily="{StaticResource FontAwesome}"
+                   Margin="10,5,0,10" Width="240"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Top"/>
+                        <Grid Margin="0,0,0,10">
+                            <Image Source="/tubiao/1234.jpg"
+                               Height="40" Width="40"
+                               Stretch="UniformToFill"
+                               HorizontalAlignment="Left"
+                               Margin="10,0,0,0">
+                                <Image.Clip>
+                                    <RectangleGeometry RadiusX="20" RadiusY="20" Rect="0,0,40,40"/>
+                                </Image.Clip>
+                            </Image>
+                            <TextBlock Text="放逐之路-2.4.2c"
+                                      FontWeight="Bold"
+                                      FontSize="16"
+                                     Height="18"
+                             Foreground="#3E3E3E"
+                           Margin="55,0,0,10"
+                              FontFamily="{StaticResource FontAwesome}"
+                           TextWrapping="Wrap"
+                                     VerticalAlignment="Top"
+                           HorizontalAlignment="Left"/>
+                            <Button  Height="30"
+                                Width="50"
+                                Content="启动"
+                                     VerticalAlignment="Center"
+                                     HorizontalAlignment="Right"
+                                     Margin="0,0,10,0"
+                                FontFamily="{StaticResource FontAwesome}"
+                                pu:ButtonHelper.ButtonStyle="Hollow"
+                                BorderBrush="#FF3F3F3F"
+                                Foreground="#FF3F3F3F"
+                                pu:ButtonHelper.HoverBrush="#3F3F3F" />
+                            <TextBlock Text="上次启动：2020.9.23 12：00"
+                                       FontSize="11"
+                                     Height="13"
+                             Foreground="#3E3E3E"
+                           Margin="55,26,0,0"
+                              FontFamily="{StaticResource FontAwesome}"
+                           TextWrapping="Wrap"
+                                     VerticalAlignment="Top"
+                           HorizontalAlignment="Left"/>
+
+                        </Grid>
+                    </StackPanel>
+                </Grid>
+
+            </Button>
+            <Button Width="290"
+                pu:ButtonHelper.ButtonStyle="Link">
+                <Grid  Width="270" VerticalAlignment="Top"
+                    Margin="10,10,10,10">
+                    <Border
+                CornerRadius="5,5,5,5" 
+                    Background="White" Opacity="0.5">
+                        <Border.Effect>
+                            <BlurEffect Radius="10" RenderingBias="Quality"/>
+                        </Border.Effect>
+                    </Border>
+                    <StackPanel Orientation="Vertical">
+                        <TextBlock Text="联机大厅" FontSize="18"
+                   Foreground="#3E3E3E"
+                               TextWrapping="Wrap"
+                               TextAlignment="Center"
+                               FontWeight="Bold"
+                   FontFamily="{StaticResource FontAwesome}"
+                   Margin="10,5,0,10" Width="240"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Top"/>
+                        <Grid Height="50" >
+                            <Image Source="/tubiao\123456.jpg"
+                                   Height="40" Width="40"
+                                   VerticalAlignment="Center"
+                                   Stretch="UniformToFill"
+                                   HorizontalAlignment="Left"
+                                   Margin='10,0,0,0'>
+                                <Image.Clip>
+                                    <RectangleGeometry RadiusX="20" RadiusY="20" Rect="0,0,40,40"/>
+                                </Image.Clip>
+                            </Image>
+                            <TextBlock Text="γ服-放逐之路" FontSize="16"
+                   Foreground="#3E3E3E"
+                               TextWrapping="Wrap"
+                               FontWeight="Bold"
+                   FontFamily="{StaticResource FontAwesome}"
+                   Margin="60,5,0,0" Width="200"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Top"/>
+                            <TextBlock Text="3255ms"
+                              Foreground="#3E3E3E"
+                           Margin="80,0,0,5"
+                           FontFamily="{StaticResource FontAwesome}"
+                           Width="60"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Bottom"/>
+                            <TextBlock Text="&#xE904;" 
+                                       FontFamily="segoe MDL2 Assets"
+                           FontSize="14"
+                                       Foreground="Red"
+                           Margin="60,0,0,7"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Bottom"/>
+                            <TextBlock Text="1/100"
+                              Foreground="#3E3E3E"
+                           Margin="165,0,0,5"
+                           FontFamily="{StaticResource FontAwesome}"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Bottom"/>
+                            <TextBlock Text="&#xE7C8;" 
+                                       FontFamily="segoe MDL2 Assets"
+                           FontSize="14"
+                                       Foreground="Green"
+                           Margin="145,0,0,6"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Bottom"/>
+                        </Grid>
+                        <Grid Height="50">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="5*"/>
+                                <ColumnDefinition Width="4*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Source="/tubiao\1234567.jpg"
+                                   Height="40" Width="40"
+                                   VerticalAlignment="Center"
+                                   HorizontalAlignment="Left"
+                                   Stretch="UniformToFill"
+                                   Margin='10,5,0,5'>
+                                <Image.Clip>
+                                    <RectangleGeometry RadiusX="20" RadiusY="20" Rect="0,0,40,40"/>
+                                </Image.Clip>
+
+                            </Image>
+                            <TextBlock Text="α服-1.12.2大型模组综合服" FontSize="16"
+                   Foreground="#3E3E3E"
+                               TextWrapping="Wrap"
+                               FontWeight="Bold"
+                   FontFamily="{StaticResource FontAwesome}"
+                   Margin="60,5,0,0" Width="200"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+                            <TextBlock Text="35ms"
+                              Foreground="#3E3E3E"
+                           Margin="80,0,0,5"
+                           FontFamily="{StaticResource FontAwesome}"
+                           Width="60"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Bottom"/>
+                            <TextBlock Text="&#xE908;" 
+                                       FontFamily="segoe MDL2 Assets"
+                           FontSize="14"
+                                       Foreground="Green"
+                           Margin="60,0,0,6"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Bottom"/>
+                            <TextBlock Text="6/10"
+                              Foreground="#3E3E3E"
+                           Margin="15,0,0,5"
+                           FontFamily="{StaticResource FontAwesome}"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Bottom" Grid.Column="1"/>
+                            <TextBlock Text="&#xE7C8;" 
+                                       FontFamily="segoe MDL2 Assets"
+                           FontSize="14"
+                                       Foreground="Orange"
+                           Margin="145,0,0,7"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Bottom" Grid.ColumnSpan="2"/>
+                        </Grid>
+
+                    </StackPanel>
+                </Grid>
+
+            </Button>
+
+        </pu:WaterfallViewer>
+    </Grid>
+</Page>

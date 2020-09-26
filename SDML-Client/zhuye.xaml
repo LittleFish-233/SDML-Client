@@ -6,17 +6,24 @@
         xmlns:local="clr-namespace:SDML_Client"
         mc:Ignorable="d"
         BorderThickness="0"
+            Background="Gray"
         WindowStartupLocation="CenterScreen"
         xmlns:pu="clr-namespace:Panuon.UI.Silver;assembly=Panuon.UI.Silver"
         Height="450" Width="800">
     <Grid>
-        <Grid>
+        <Image Source="/tubiao\1.jpg"
+               Stretch="UniformToFill">
+            <Image.Effect>
+                <BlurEffect/>
+            </Image.Effect>
+        </Image>
+        <Grid Background="#00000000">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="40" />
                 <ColumnDefinition Width="140"/>
                 <ColumnDefinition />
             </Grid.ColumnDefinitions>
-            <Grid Background="#3E3E3E"
+            <Grid Background="#00000000"
                   x:Name="re1"
                   Margin="0,-35,0,0" Grid.ColumnSpan="2">
                 <Grid.RowDefinitions>
@@ -34,7 +41,7 @@
 
                     <TextBlock Text="沙雕の方块"
                                FontFamily="{StaticResource FontAwesome}"
-                               Foreground="#AAFFFFFF"
+                               Foreground="#4B4B4B"
                                FontSize="17"
                                HorizontalAlignment="Center"
                                VerticalAlignment="Bottom"
@@ -42,13 +49,13 @@
                 </Grid>
                 <TreeView Grid.Row="1"
                           x:Name="caidan"
-                          Background="Transparent"
+                          Background="#00000000"
                           pu:TreeViewHelper.ItemHeight="48"
                           pu:TreeViewHelper.TreeViewStyle="Modern"
-                          pu:TreeViewHelper.SelectedBackground="#22FFFFFF"
-                          BorderBrush="Gray"
+                          pu:TreeViewHelper.SelectedBackground="#BBBBBB"
+                          BorderBrush="#3E3E3E"
                           PreviewMouseUp="TreeView_PreviewMouseUp"
-                          Foreground="#AAFFFFFF">
+                          Foreground="#4B4B4B">
                     <TreeViewItem Width="178" HorizontalAlignment="Left"
                         Tag="1"
                                   IsSelected="True"
@@ -98,7 +105,7 @@
                            HorizontalAlignment="Left"
                            VerticalAlignment="Center"/>
 
-                                <TextBlock Text="游戏设置" 
+                                <TextBlock Text="游戏大厅" 
                                            FontFamily="{StaticResource FontAwesome}"
                                            FontSize="16"
                                            Margin="40,0,0,0"
@@ -145,7 +152,7 @@
                 </TreeView>
             </Grid>
             <Grid Grid.Column="2">
-                <Rectangle Fill="White" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"/>
+                <Rectangle Fill="#00000000" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"/>
                 <Frame HorizontalAlignment="Stretch"
                VerticalAlignment="Stretch"
             x:Name="zhu_frame" NavigationUIVisibility="Hidden"/>

@@ -6,8 +6,7 @@
       xmlns:local="clr-namespace:SDML_Client.lianjie"
       mc:Ignorable="d" 
       xmlns:pu="clr-namespace:Panuon.UI.Silver;assembly=Panuon.UI.Silver"
-      d:DesignHeight="450" d:DesignWidth="800"
-      Background="White">
+      d:DesignHeight="450" d:DesignWidth="800">
 
     <Grid>
         <TextBlock x:Name="textblock1" Text="你好，请输入识别码"
@@ -37,7 +36,7 @@
                    VerticalAlignment="Top"
                    Margin="0,245,0,0"  
                     Width="150"
-                     Content=" 进入游戏"
+                     Content="进入游戏"
                      pu:ButtonHelper.CornerRadius="15"
                         FontFamily="{StaticResource FontAwesome}"
                     Background="#C83F3F3F"
@@ -50,7 +49,6 @@
             <Button  Height="60" Margin="10"
                     Width="70"
                      Foreground="Black"
-                     Background="White"
                      pu:ButtonHelper.ButtonStyle="Link"
                     FontFamily="{StaticResource FontAwesome}">
                 <Grid Width="70" Height="60">
@@ -70,7 +68,6 @@
                     Width="70"
                      Click="Button_Click_1"
                       Foreground="Black"
-                     Background="White"
                      pu:ButtonHelper.ButtonStyle="Link"
                     FontFamily="{StaticResource FontAwesome}">
                 <Grid Width="70" Height="60">
@@ -90,7 +87,6 @@
                     Width="70"
                      Click="Button_Click"
                      Foreground="Black"
-                     Background="White"
                      pu:ButtonHelper.ButtonStyle="Link"
                     FontFamily="{StaticResource FontAwesome}">
                 <Grid Width="70" Height="60">

@@ -16,13 +16,18 @@ using System.Windows.Shapes;
 namespace SDML_Client.zhu_youxi
 {
     /// <summary>
-    /// xinxi_dan.xaml 的交互逻辑
+    /// dan_youxi.xaml 的交互逻辑
     /// </summary>
-    public partial class xinxi_dan : UserControl
+    public partial class dan_youxi : UserControl
     {
-        public xinxi_dan()
+        public dan_youxi()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            App.shijian.Kaishitishi("游戏列表", 1);
         }
     }
 }

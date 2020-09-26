@@ -6,8 +6,7 @@
       xmlns:local="clr-namespace:SDML_Client.lianjie"
         xmlns:pu="clr-namespace:Panuon.UI.Silver;assembly=Panuon.UI.Silver"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-      Background="White">
+      d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
         <Grid Width="160">
             <TextBlock Text="&#xE713;" FontFamily="segoe MDL2 Assets"

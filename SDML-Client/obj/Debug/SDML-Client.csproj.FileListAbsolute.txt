@@ -35,5 +35,10 @@ C:\Users\Littl\source\repos\LittleFish-233\SDML-Client\SDML-Client\obj\Debug\zhu
 C:\Users\Littl\source\repos\LittleFish-233\SDML-Client\SDML-Client\obj\Debug\zhuye.baml
 C:\Users\Littl\source\repos\LittleFish-233\SDML-Client\SDML-Client\obj\Debug\zhu_youxi\youxi_liebiao.g.cs
 C:\Users\Littl\source\repos\LittleFish-233\SDML-Client\SDML-Client\obj\Debug\zhu_youxi\youxi_liebiao.baml
-C:\Users\Littl\source\repos\LittleFish-233\SDML-Client\SDML-Client\obj\Debug\zhu_youxi\xinxi_dan.g.cs
-C:\Users\Littl\source\repos\LittleFish-233\SDML-Client\SDML-Client\obj\Debug\zhu_youxi\xinxi_dan.baml
+C:\Users\Littl\source\repos\LittleFish-233\SDML-Client\SDML-Client\obj\Debug\zhu_zhaxiang\kuanjia.g.cs
+C:\Users\Littl\source\repos\LittleFish-233\SDML-Client\SDML-Client\obj\Debug\zhu_zhaxiang\kuanjia.baml
+C:\Users\Littl\source\repos\LittleFish-233\SDML-Client\SDML-Client\obj\Debug\zhu_youxi\dan_youxi.g.cs
+C:\Users\Littl\source\repos\LittleFish-233\SDML-Client\SDML-Client\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Littl\source\repos\LittleFish-233\SDML-Client\SDML-Client\obj\Debug\zhu_youxi\dan_youxi.baml
+C:\Users\Littl\source\repos\LittleFish-233\SDML-Client\SDML-Client\obj\Debug\zhu_youxi\youxi_zhu.g.cs
+C:\Users\Littl\source\repos\LittleFish-233\SDML-Client\SDML-Client\obj\Debug\zhu_youxi\youxi_zhu.baml
